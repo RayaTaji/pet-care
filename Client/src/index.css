@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", Arial, sans-serif;
+}
+
+:root {
+  --font-primary: "Fredoka", Arial, sans-serif;
+  --font-secondary: "Inter", Arial, sans-serif;
+}

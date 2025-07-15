@@ -1,0 +1,32 @@
+@import "../../variables.scss";
+
+.button {
+  font-family: $primary-font;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  outline: none;
+}
+
+.primary {
+  background: $primary-pink;
+  color: $white;
+  &:hover {
+    background: $secondary-pink;
+    color: $white;
+  }
+}
+
+.secondary {
+  background: $blush-pink;
+  color: $secondary-pink;
+  font-family: $secondary-font;
+  &:hover {
+    background: $secondary-pink;
+    color: $white;
+  }
+}
