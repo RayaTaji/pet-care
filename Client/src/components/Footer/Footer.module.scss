@@ -1,0 +1,30 @@
+@import "../../variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 3rem;
+  background-color: $blush-pink;
+  height: 17rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  font-family: $primary-font;
+  color: $black;
+}
+
+.footerFooter {
+  display: flex;
+  background-color: $primary-pink;
+  height: 2rem;
+  width: 100%;
+  font-size: small;
+  align-items: center;
+  font-family: $secondary-font;
+  color: $white;
+  padding-inline: 2rem;
+}

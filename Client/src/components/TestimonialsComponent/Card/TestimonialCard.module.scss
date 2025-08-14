@@ -1,0 +1,63 @@
+@import "../../../variables.scss";
+.container {
+  width: 20rem;
+  height: 14rem;
+  border: 3px solid $primary-pink;
+  border-radius: 10px;
+  background-color: $blush-pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem;
+
+  .userNameText {
+    font-weight: 100;
+    font-family: $primary-font;
+    font-size: 20px;
+    margin: 0;
+  }
+  p {
+    color: $darkish-gray;
+    margin: 0;
+    font-family: $secondary-font;
+    font-weight: 100;
+  }
+}
+.profileContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -2rem;
+  .profilePicture {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: -1rem;
+  }
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  // top: -0.5rem;
+  .commentIconBackground {
+    width: 3rem;
+    height: 3rem;
+    background-color: $white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .commentIcon {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

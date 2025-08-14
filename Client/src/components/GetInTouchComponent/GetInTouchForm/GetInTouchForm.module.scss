@@ -1,0 +1,43 @@
+@import "../../../variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  // gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-pink;
+  height: 37rem;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.header {
+  padding: 1rem;
+  width: 80%;
+  h2,
+  p {
+    font-weight: 100;
+    margin: 0;
+    display: flex;
+  }
+  p {
+    font-family: $secondary-font;
+    margin-block-start: 0.4rem;
+    font-size: 1rem;
+    color: $darkish-gray;
+    // text-align: left;
+  }
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  width: 80%;
+}
+.button{
+  margin-block-start: 0.875rem;
+}

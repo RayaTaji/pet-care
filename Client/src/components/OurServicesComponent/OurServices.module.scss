@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+.container {
+  margin-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+h1 {
+  color: $secondary-pink;
+}
