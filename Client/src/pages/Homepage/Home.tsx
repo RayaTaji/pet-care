@@ -6,6 +6,7 @@ import About from "../../components/AboutComponent/About";
 import Testimonials from "../../components/TestimonialsComponent/Testimonials";
 import OurCustomers from "../../components/OurCustomersComponent/OurCustomers";
 import GetInTouch from "../../components/GetInTouchComponent/GetInTouch";
+import BackToTop from "../../components/BackToTop/BackToTop";
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
         <Testimonials />
         <OurCustomers />
         <GetInTouch />
+        <BackToTop />
       </div>
     </>
   );

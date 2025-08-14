@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Button.module.scss";
 
+
 interface ButtonProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   type?: "button" | "submit" | "reset";
   className?: string;
   disabled?: boolean;
-  variant?: "primary" | "secondary" | "tertiary";
+  variant?: "primary" | "secondary" | "tertiary" | "circular";
 }
 
 const Button: React.FC<ButtonProps> = ({

@@ -39,3 +39,18 @@
     color: $secondary-pink;
   }
 }
+.circular {
+  background: $secondary-pink;
+  color: $white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background: $secondary-pink;
+    color: $white;
+  }
+} 
