@@ -30,3 +30,12 @@
     color: $white;
   }
 }
+.tertiary {
+  background: $secondary-pink;
+  color: $white;
+  font-family: $secondary-font;
+  &:hover {
+    background: $blush-pink;
+    color: $secondary-pink;
+  }
+}

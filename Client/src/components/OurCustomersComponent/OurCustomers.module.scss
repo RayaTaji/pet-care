@@ -1,0 +1,51 @@
+@import "../../variables.scss";
+.container {
+  margin-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.polaroidContainer {
+  height: auto;
+  max-width: 100vw;
+  // overflow-y: hidden;
+}
+:global {
+  .slick-arrow {
+    background: $secondary-pink !important;
+    border-radius: 50% !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    z-index: 2 !important;
+  }
+  .slick-list {
+    overflow: visible !important;
+  }
+  .slick-arrow.slick-prev::before {
+    top: 0.15rem !important;
+    position: relative !important;
+  }
+  .slick-arrow.slick-next::before {
+    top: 0.15rem !important;
+    position: relative !important;
+  }
+  .slick-arrow:before {
+    color: $blush-pink !important;
+    font-size: 2rem !important;
+  }
+  .slick-dots li button:before {
+    color: $secondary-pink !important;
+    font-size: 1.2rem !important;
+    margin-block-start: 1rem;
+  }
+  .slick-dots li.slick-active button:before {
+    color: $primary-pink !important;
+  }
+  .slick-list {
+    // height: 29.5vw !important;
+    width: 100% !important;
+    display: block !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+}

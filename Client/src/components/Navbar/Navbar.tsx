@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 function Navbar() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-aos="fade-down">
       <div className={styles.innerContainer}>
         <div className={styles.logo}>
           <img src={logo} alt="PetCare" />
@@ -14,16 +14,19 @@ function Navbar() {
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="#our-services">Our Services</a>
+            <a href="#ourServices">Our Services</a>
           </li>
           <li>
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#about">Testimonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
-            <a href="#contact">Get in Touch</a>
+            <a href="#ourCustomers">Our Customers</a>
+          </li>
+          <li>
+            <a href="#get-in-touch">Get in Touch</a>
           </li>
         </ul>
         <div className={styles.button}>

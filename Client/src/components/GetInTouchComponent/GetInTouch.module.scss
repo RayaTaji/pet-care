@@ -1,0 +1,47 @@
+@import "../..//variables.scss";
+.container {
+  margin-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.topContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image {
+  height: 37rem;
+  width: 30rem;
+  border-radius: 10px;
+  object-fit: cover;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.button {
+  width: 100%;
+}
+.orContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  h3 {
+    margin-inline: 10px;
+    color: $secondary-pink;
+  }
+}
+.horizontalDivider {
+  width: 50%;
+  border-top: 1px solid $secondary-pink;
+  height: 1px;
+}
+.mapContainer {
+  height: 18rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bottomContainer {
+  h1 {
+    margin-top: 0;
+  }
+}

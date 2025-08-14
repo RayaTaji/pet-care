@@ -11,8 +11,8 @@ import ticks from "../../assets/icons/ticks.png";
 
 export default function OurServices() {
   return (
-    <div id={"our-services"} className={styles.container}>
-      <h1>Our Services</h1>
+    <div id={"ourServices"} className={styles.container}>
+      <h1>What We Do (for Your Best Friend)</h1>
       <div className={styles.cardContainer}>
         <ServiceCard
           image={grooming}
@@ -41,7 +41,7 @@ export default function OurServices() {
         />
         <ServiceCard
           image={teethBrushing}
-          title={"Teeth Brushing"}
+          title={"Teeth Cleaning"}
           description="Fresh breath and healthy teeth! Say yes to extra kisses without the stinky aftermath."
         />
         <ServiceCard
