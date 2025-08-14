@@ -1,6 +1,6 @@
 import styles from "./OurCustomers.module.scss";
 import Polaroid from "../Polaroid/Polaroid";
-import Slider, { Settings } from "react-slick";
+import Slider from "react-slick";
 import Dog4 from "../../assets/images/Pets/Dog4.jpeg";
 import Cat4 from "../../assets/images/Pets/Cat4.jpeg";
 import Dog3 from "../../assets/images/Pets/Dog3.jpg";
@@ -9,6 +9,7 @@ import Dog2 from "../../assets/images/Pets/Dog2.jpg";
 import Cat2 from "../../assets/images/Pets/Cat2.jpg";
 import Dog1 from "../../assets/images/Pets/Dog1.jpg";
 import Cat1 from "../../assets/images/Pets/Cat1.jpg";
+import type { Settings as SettingsType } from "react-slick";
 
 export default function OurCustomers() {
   const polaroids = [
@@ -22,7 +23,7 @@ export default function OurCustomers() {
     { imageUrl: Cat1, title: "Luna Bean, 9 years old" },
   ];
 
-  const settings: Settings = {
+  const settings: SettingsType = {
     dots: true,
     infinite: true,
     speed: 1050,

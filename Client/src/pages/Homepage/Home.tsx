@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import styles from "./Home.module.scss";
 import cutie3 from "../assets/images/puppies.png";
-import OurServices from "../components/OurServicesComponent/OurServices";
-import About from "../components/AboutComponent/About";
-import Testimonials from "../components/TestimonialsComponent/Testimonials";
-import OurCustomers from "../components/OurCustomersComponent/OurCustomers";
-import GetInTouch from "../components/GetInTouchComponent/GetInTouch";
+import OurServices from "../../components/OurServicesComponent/OurServices";
+import About from "../../components/AboutComponent/About";
+import Testimonials from "../../components/TestimonialsComponent/Testimonials";
+import OurCustomers from "../../components/OurCustomersComponent/OurCustomers";
+import GetInTouch from "../../components/GetInTouchComponent/GetInTouch";
 
 function Home() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./pages/Home";
+import Home from "./pages/Homepage/Home";
 import styles from "./App.module.scss";
 import { useEffect } from "react";
 import AOS from "aos";
