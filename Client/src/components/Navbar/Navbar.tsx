@@ -1,8 +1,9 @@
 import styles from "./Navbar.module.scss";
 import logo from "../../assets/logos/PetCare-Logo2.svg";
 import Button from "../Button/Button";
-
+import { useNavigate } from "react-router-dom";
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className={styles.container} data-aos="fade-down">
       <div className={styles.innerContainer}>
@@ -30,7 +31,9 @@ function Navbar() {
           </li>
         </ul>
         <div className={styles.button}>
-          <Button variant="secondary">Book Now</Button>
+          <Button onClick={() => navigate("/book-appointment")}>
+            Book Now
+          </Button>
         </div>
       </div>
     </div>

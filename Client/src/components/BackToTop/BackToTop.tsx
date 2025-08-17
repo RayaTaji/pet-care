@@ -21,11 +21,9 @@ function BackToTop() {
   if (!visible) return null;
   return (
     <div className={styles.container}>
-      <Button
-        variant="circular"
-        children={<FaArrowUp className={styles.arrow} />}
-        onClick={scrollToTop}
-      />
+      <Button variant="circular" onClick={scrollToTop}>
+        <FaArrowUp className={styles.arrow} />
+      </Button>
     </div>
   );
 }
