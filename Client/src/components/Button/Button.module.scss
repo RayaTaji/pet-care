@@ -10,6 +10,17 @@
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
   outline: none;
+
+  &:disabled {
+    background: $light-gray;
+    color: $darker-light-gray;
+    cursor: not-allowed;
+  }
+  &:disabled:hover {
+    background: $light-gray;
+    color: $darker-light-gray;
+    cursor: not-allowed;
+  }
 }
 
 .primary {
@@ -53,4 +64,5 @@
     background: $secondary-pink;
     color: $white;
   }
-} 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

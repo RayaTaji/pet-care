@@ -7,6 +7,7 @@ import Testimonials from "../../components/TestimonialsComponent/Testimonials";
 import OurCustomers from "../../components/OurCustomersComponent/OurCustomers";
 import GetInTouch from "../../components/GetInTouchComponent/GetInTouch";
 import BackToTop from "../../components/BackToTop/BackToTop";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -30,6 +31,7 @@ function Home() {
         <GetInTouch />
         <BackToTop />
       </div>
+      <Footer />
     </>
   );
 }

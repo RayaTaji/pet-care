@@ -1,8 +1,12 @@
 import styles from "./Navbar.module.scss";
 import logo from "../../assets/logos/PetCare-Logo2.svg";
 import Button from "../Button/Button";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import Modal from "../Modal/Modal";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
   const handleScroll = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
     id: string
@@ -13,11 +17,13 @@ function Navbar() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const navigate = useNavigate();
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
         <div className={styles.logo}>
-          <img src={logo} alt="PetCare" />
+          <img src={logo} alt="PetCare" onClick={() => navigate("/")} />
         </div>
         <ul>
           <li>
@@ -59,7 +65,15 @@ function Navbar() {
           </li>
         </ul>
         <div className={styles.button}>
-          <Button variant="tertiary">Book Now</Button>
+          <Button
+            variant="tertiary"
+            onClick={() => {
+              setIsOpen(true);
+            }}
+          >
+            Book Now
+          </Button>
+          {isOpen && <Modal onClose={() => setIsOpen(false)} />}{" "}
         </div>
       </div>
     </div>
