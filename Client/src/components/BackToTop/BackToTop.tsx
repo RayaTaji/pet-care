@@ -1,11 +1,9 @@
 import styles from "./BackToTop.module.scss";
 import Button from "../Button/Button";
-import { FaArrowUp } from "react-icons/fa";
-
 import { useEffect, useState } from "react";
+import upArrow from "../../assets/icons/up-arrow.svg";
 function BackToTop() {
   const [visible, setVisible] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setVisible(window.scrollY > 200);
@@ -22,7 +20,8 @@ function BackToTop() {
   return (
     <div className={styles.container}>
       <Button variant="circular" onClick={scrollToTop}>
-        <FaArrowUp className={styles.arrow} />
+        {" "}
+        <img src={upArrow} alt="Up Arrow" className={styles.arrow} />
       </Button>
     </div>
   );

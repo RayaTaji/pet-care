@@ -1,8 +1,14 @@
-.container{
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        border: none;
+.container {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
 }
-.arrow{display: flex;}
+.arrow {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  color: white;
+}
