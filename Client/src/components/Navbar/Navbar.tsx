@@ -1,7 +1,6 @@
 import styles from "./Navbar.module.scss";
 import logo from "../../assets/logos/PetCare-Logo2.svg";
 import Button from "../Button/Button";
-import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const handleScroll = (
@@ -14,9 +13,8 @@ function Navbar() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
-  // const navigate = useNavigate();
   return (
-    <div className={styles.container} data-aos="fade-down">
+    <div className={styles.container}>
       <div className={styles.innerContainer}>
         <div className={styles.logo}>
           <img src={logo} alt="PetCare" />

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Testimonials.module.scss";
 import TestimonialCard from "./Card/TestimonialCard";
-import Person1 from "../../assets/images/People/Person1.jpeg";
+// import Person1 from "../../assets/images/People/Person1.jpeg";
 import Person2 from "../../assets/images/People/Person2.jpeg";
 import Person3 from "../../assets/images/People/Person3.jpg";
 import Person4 from "../../assets/images/People/Person4.png";
