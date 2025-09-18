@@ -34,7 +34,7 @@ export default function Testimonials() {
           userImageUrl={Person4}
           userTitle="Cat queen"
           userName="Noor F."
-          testimonialText="My cat never lets anyone touch her nails, but they did it without drama — and with treats?? I'm in shock."
+          testimonialText="My pup never lets anyone touch her nails, but they did it without drama — and with treats?? I'm in shock."
         />
       </div>
     </div>
