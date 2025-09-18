@@ -19,7 +19,7 @@ function Home() {
         </div>
         <div className={styles.heroText}>
           <h1 style={{ fontWeight: 700 }}>
-            Make Your Pet Look and Feel Fabulous
+            Make Your Dog Look and Feel Fabulous
           </h1>
         </div>
       </div>

@@ -54,4 +54,8 @@
 .buttons {
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
 }

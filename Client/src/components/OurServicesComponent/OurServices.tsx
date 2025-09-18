@@ -17,12 +17,12 @@ export default function OurServices() {
         <ServiceCard
           image={grooming}
           title={"Grooming"}
-          description="Full coat trimming, styling, and brushing to keep your pet looking fresh and fabulous."
+          description="Full coat trimming, styling, and brushing to keep your dog looking fresh and fabulous."
         />
         <ServiceCard
           image={bathing}
           title={"Bathing"}
-          description="Gentle, deep-clean baths with pet-safe shampoos. Goodbye stinky fur, hello silky softness."
+          description="Gentle, deep-clean baths with dog-safe shampoos. Goodbye stinky fur, hello silky softness."
         />
         <ServiceCard
           image={deworming}
@@ -32,12 +32,12 @@ export default function OurServices() {
         <ServiceCard
           image={nailTrimming}
           title={"Nail Trimming"}
-          description="Smooth, safe nail trims so you can avoid scratches and keep your pet comfy."
+          description="Smooth, safe nail trims so you can avoid scratches and keep your dog comfy."
         />
         <ServiceCard
           image={earCleaning}
           title={"Ear Cleaning"}
-          description="Gentle ear clean-ups to prevent infections and keep your pet’s ears fresh and happy."
+          description="Gentle ear clean-ups to prevent infections and keep your dog’s ears fresh and happy."
         />
         <ServiceCard
           image={teethBrushing}
@@ -47,12 +47,12 @@ export default function OurServices() {
         <ServiceCard
           image={spaMassage}
           title={"Spa & Massage"}
-          description="A luxurious, calming massage to help your pet relax and feel totally spoiled."
+          description="A luxurious, calming massage to help your dog relax and feel totally spoiled."
         />
         <ServiceCard
           image={ticks}
           title={"Flea & Tick Treatment"}
-          description="Effective treatments to keep those annoying pests away and your pet itch-free.
+          description="Effective treatments to keep those annoying pests away and your dog itch-free.
 "
         />
       </div>

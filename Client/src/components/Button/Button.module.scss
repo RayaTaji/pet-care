@@ -26,6 +26,7 @@
 .primary {
   background: $primary-pink;
   color: $white;
+  font-family: $secondary-font;
   &:hover {
     background: $secondary-pink;
     color: $white;

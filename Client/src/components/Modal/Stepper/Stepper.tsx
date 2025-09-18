@@ -4,9 +4,10 @@ import Button from "../../Button/Button";
 
 interface StepperProps {
   steps: React.ReactNode[];
+  handleSubmit?: () => {};
 }
 
-function Stepper({ steps }: StepperProps) {
+function Stepper({ steps, handleSubmit }: StepperProps) {
   const [currentStep, setCurrentStep] = useState(0);
 
   const goToStep = (step: number) => {
@@ -24,6 +25,7 @@ function Stepper({ steps }: StepperProps) {
       setCurrentStep(currentStep - 1);
     }
   };
+  const isLastStep = currentStep === steps.length - 1;
 
   return (
     <div className={styles.stepperContainer}>
@@ -45,15 +47,21 @@ function Stepper({ steps }: StepperProps) {
       <div className={styles.content}>{steps[currentStep]}</div>
       <div className={styles.buttons}>
         <Button
-          variant="secondary"
+          variant="primary"
           onClick={prevStep}
           disabled={currentStep === 0}
         >
           Previous
         </Button>
-        <Button onClick={nextStep} disabled={currentStep === steps.length - 1}>
-          Next
-        </Button>
+        {isLastStep ? (
+          <Button variant="tertiary" onClick={handleSubmit}>
+            Submit
+          </Button>
+        ) : (
+          <Button variant="tertiary" onClick={nextStep}>
+            Next
+          </Button>
+        )}
       </div>
     </div>
   );

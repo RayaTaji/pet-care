@@ -14,10 +14,10 @@ export default function About() {
             feel their absolute best. <br /> <br />
             Whether it's a fresh cut, a relaxing bath, or a little extra
             pampering, we're here to make every fur baby feel a superstar.{" "}
-            <br /> <br /> Our team is made up of passionate pet experienced
-            groomers, and gentle hands — because we know your pet isn’t “just a
-            pet,” they’re family. We’re all about stress-free, and totally
-            tail-wagging experiences. From shy kitties to playful pups, we make
+            <br /> <br /> Our team is made up of passionate, experienced
+            groomers with gentle hands — because we know your dog isn’t “just a
+            dog,” they’re family. We’re all about stress-free, and totally
+            tail-wagging experiences. From shy seniors to playful pups, we make
             sure every visit is fun, calm, and full of love (and treats,
             obviously). <br /> <br /> Come visit us and see why our furry
             clients leave strutting their stuff and begging to come back. 💖

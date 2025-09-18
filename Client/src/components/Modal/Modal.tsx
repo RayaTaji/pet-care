@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Modal.module.scss";
 import Button from "../Button/Button";
-import ChoosePet from "./Steps/ChoosePetStep/ChoosePet";
 import Stepper from "./Stepper/Stepper";
 import PetInformation from "./Steps/PetInformationStep/PetInformation";
 import ChooseService from "./Steps/ChooseServiceStep/ChooseService";
@@ -16,7 +15,6 @@ interface ModalProps {
 
 function Modal({ onClose, children }: ModalProps) {
   const steps = [
-    <ChoosePet />,
     <ChooseService />,
     <PetInformation />,
     <OwnerInformation />,
