@@ -1,24 +1,31 @@
 import { useState } from "react";
 import styles from "./ServiceCard.module.scss";
 interface ServiceCardProps {
+  id?: number | string;
   image: string;
   title: string;
   description: string;
   variant?: "small" | "regular";
 }
+
 export default function ServiceCard({
+  id,
   image,
   title,
   description,
   variant = "regular",
 }: ServiceCardProps) {
   const [isClicked, setIsClicked] = useState(false);
+
   return (
     <div
+      id={`service-card-${id}`}
       onClick={() =>
         variant === "small" ? setIsClicked(true) : setIsClicked(false)
       }
-      className={variant === "small" ? styles.smallContainer : styles.container}
+      className={`${
+        variant === "small" ? styles.smallContainer : styles.container
+      } ${isClicked ? styles.clicked : ""}`}
     >
       <div
         className={variant === "small" ? styles.smallContent : styles.content}

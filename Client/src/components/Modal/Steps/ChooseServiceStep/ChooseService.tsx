@@ -12,58 +12,66 @@ import ticks from "../../../../assets/icons/ticks.png";
 function ChooseService() {
   return (
     <div className={styles.container}>
-      <h4>Select your services</h4>
+      <h4>Select your Services</h4>
       <div className={styles.cardContainer}>
         <ServiceCard
+          id="grooming"
           image={grooming}
-          title={"Grooming"}
+          title="Grooming"
           variant="small"
           description="Full coat trimming, styling, and brushing to keep your dog looking fresh and fabulous."
         />
         <ServiceCard
+          id="bathing"
           image={bathing}
-          title={"Bathing"}
+          title="Bathing"
           variant="small"
           description="Gentle, deep-clean baths with dog-safe shampoos. Goodbye stinky fur, hello silky softness."
         />
         <ServiceCard
+          id="deworming"
           image={deworming}
-          title={"Deworming"}
+          title="Deworming"
           variant="small"
           description="Keep your furry friend healthy from the inside out. Quick, safe, and vet-approved."
         />
         <ServiceCard
+          id="nail-trimming"
           image={nailTrimming}
-          title={"Nail Trimming"}
+          title="Nail Trimming"
           variant="small"
           description="Smooth, safe nail trims so you can avoid scratches and keep your dog comfy."
         />
       </div>
+
       <div className={styles.cardContainer}>
         <ServiceCard
+          id="ear-cleaning"
           image={earCleaning}
-          title={"Ear Cleaning"}
+          title="Ear Cleaning"
           variant="small"
           description="Gentle ear clean-ups to prevent infections and keep your dog’s ears fresh and happy."
         />
         <ServiceCard
+          id="teeth-cleaning"
           image={teethBrushing}
-          title={"Teeth Cleaning"}
+          title="Teeth Cleaning"
           variant="small"
           description="Fresh breath and healthy teeth! Say yes to extra kisses without the stinky aftermath."
         />
         <ServiceCard
+          id="spa-massage"
           image={spaMassage}
-          title={"Spa & Massage"}
+          title="Spa & Massage"
           variant="small"
           description="A luxurious, calming massage to help your dog relax and feel totally spoiled."
         />
         <ServiceCard
+          id="flea-tick-treatment"
           image={ticks}
-          title={"Flea & Tick Treatment"}
+          title="Flea & Tick Treatment"
           variant="small"
-          description="Effective treatments to keep those annoying pests away and your dog itch-free.
-"
+          description="Effective treatments to keep those annoying pests away and your dog itch-free."
         />
       </div>
     </div>

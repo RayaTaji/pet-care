@@ -15,10 +15,12 @@ export default function GetInTouchForm() {
         </p>
       </div>
       <div className={styles.innerContainer}>
-        <TextBox label="First Name" placeholder="Enter your First Name" />
-        <TextBox label="Last Name" placeholder="Enter your Last Name" />
-        <TextBox label="Email" placeholder="Enter your Email" />
-        <TextArea label="Message" placeholder="Enter your Message" />
+        <div className={styles.nameContainer}>
+          <TextBox label="First Name" placeholder="Enter First Name" />
+          <TextBox label="Last Name" placeholder="Enter Last Name" />
+        </div>
+        <TextBox label="Email" placeholder="Enter Email" />
+        <TextArea label="Message" placeholder="What's on your mind?" />
         <Button
           children={
             <>

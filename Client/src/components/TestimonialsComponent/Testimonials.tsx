@@ -32,7 +32,7 @@ export default function Testimonials() {
         />
         <TestimonialCard
           userImageUrl={Person4}
-          userTitle="Cat queen"
+          userTitle="Dog Queen"
           userName="Noor F."
           testimonialText="My pup never lets anyone touch her nails, but they did it without drama — and with treats?? I'm in shock."
         />

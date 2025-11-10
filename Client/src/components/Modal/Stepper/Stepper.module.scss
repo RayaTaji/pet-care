@@ -3,7 +3,7 @@
 .stepperContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
   width: 100%;
 }
@@ -45,12 +45,11 @@
   background-color: $light-gray;
   margin: 0 0.5rem;
 }
-
 .content {
   margin-bottom: 2rem;
   text-align: center;
+  width: 100%;
 }
-
 .buttons {
   display: flex;
   gap: 1rem;

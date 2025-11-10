@@ -7,14 +7,18 @@
 .topContainer {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
+  background-color: $primary-pink;
+  align-items: flex-end;
+  border: 1px solid transparent;
+  border-radius: 10px;
 }
 .image {
-  height: 37rem;
+  height: 37.5rem;
   width: 30rem;
-  border-radius: 10px;
   object-fit: cover;
-  border-bottom-left-radius: 0px;
-  border-top-left-radius: 0px;
+  border-bottom: 1px solid transparent;
+  border-radius: 10px;
 }
 .button {
   width: 100%;
